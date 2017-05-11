@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/icon">
+        <file>icon/down.png</file>
+        <file>icon/background.png</file>
+        <file>icon/login_hover.png</file>
+        <file>icon/login_normal.png</file>
+        <file>icon/login_pressed.png</file>
+        <file>icon/logo.png</file>
+        <file>icon/tray.png</file>
+        <file>icon/cha.png</file>
+        <file>icon/downarrow.png</file>
+        <file>icon/close.png</file>
+        <file>icon/checkbox_checked.png</file>
+        <file>icon/checkbox_hover.png</file>
+        <file>icon/checkbox_unchecked.png</file>
+        <file>icon/checked.png</file>
+        <file>icon/point.png</file>
+        <file>icon/point_checked.png</file>
+    </qresource>
+</RCC>
