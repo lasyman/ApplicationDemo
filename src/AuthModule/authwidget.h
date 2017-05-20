@@ -8,6 +8,8 @@ namespace Ui {
 class AuthWidget;
 }
 
+
+class AuthModule;
 class AUTHMODULESHARED_EXPORT AuthWidget : public QWidget
 {
     Q_OBJECT
@@ -17,7 +19,15 @@ public:
     ~AuthWidget();
 
 private:
+    void initial();
+
+Q_SIGNALS:
+    void sigLoginClicked(QString,QString);
+    void sigLogin(bool);
+
+private:
     Ui::AuthWidget *ui;
+    AuthModule *m_authModule;
 };
 
 #endif // AUTHWIDGET_H

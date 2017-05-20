@@ -158,6 +158,11 @@
            <property name="editable">
             <bool>true</bool>
            </property>
+           <item>
+            <property name="text">
+             <string>admin</string>
+            </property>
+           </item>
           </widget>
          </item>
          <item row="1" column="0">
@@ -174,6 +179,9 @@
              <width>0</width>
              <height>30</height>
             </size>
+           </property>
+           <property name="text">
+            <string>123456</string>
            </property>
           </widget>
          </item>
@@ -244,6 +252,14 @@
             <string notr="true">QPushButton {
 	border: 1px solid rgb(105,105,105);
 	border-radius: 5px;
+}
+
+QPushButton:hover {
+	background-color: rgb(85, 139, 255);
+}
+
+QPushButton:pressed {
+	background-color: rgb(58, 80, 255);
 }</string>
            </property>
            <property name="text">
